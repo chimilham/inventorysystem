@@ -1,0 +1,61 @@
+#remove-all-margin-padding{
+Padding-right:0 ! important;
+Padding-left:0 ! important;
+}
+
+#failurestyle{
+text-align: center;
+color:red;
+font-size: 20px;
+}
+
+hr.new1 {
+  border-top: 1px solid black;
+}
+
+ table.fit{
+    width: 320px; 
+}
+
+#watermark{
+     background-image: url("img/waterm.jpg");
+    background-repeat: no-repeat;
+    background-size: 350px 473px;
+	background-position: 60% 40%;
+    
+}
+#customlist {
+  /* delete default counter */
+  list-style-type: none;
+  /* create custom counter and set it to 0 */
+  counter-reset: elementcounter;
+}
+#customlist>li:before{
+ content: "Step " counter(elementcounter) ". ";
+  counter-increment: elementcounter;
+}
+#align{
+padding-left: 35%;
+}
+
+#customnum {
+  /* delete default counter */
+  list-style: none; 
+}
+
+div.hide{
+display:none;
+}
+
+#sp{
+margin-left: 20px;
+}
+
+input.wid{
+width: 55%;
+  padding: 8px 6px;
+  margin: 6px 0;  
+  border-radius: 2px;
+}
+
+
